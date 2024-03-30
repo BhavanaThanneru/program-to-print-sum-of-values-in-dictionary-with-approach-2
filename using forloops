@@ -1,0 +1,7 @@
+d={}
+n=int(input())
+for i in range(n):
+  k,v=map(int,input().split())
+  d[k]=v
+res=d.values()
+print(sum(res))  
